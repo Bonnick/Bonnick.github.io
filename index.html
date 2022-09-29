@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Tech Academy Portfolio</title>
+        <!-- The Your Name Here in the title is changed to Tech Academy Portfolio-->
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+    </head>
+
+    <!--Body-->
+    <body class="Background">
+        
+        <!--Navbar-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between navbar and the first heading-->
+        <br>
+        <br>
+
+        <!--Background video-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="./images/video/videoplayback (1).mp4" type="video/mp4"> <!--Video was  changed-->
+                <!--Display message if video fails to run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--Video text-->
+        <div class="Video_Text">    
+            <h1 class="white-text">TECH ACADEMY'S PORTFOLIO</h1> <!--your name portfolio is changed to Tech academy's portfolio-->
+            <strong>
+                <p class="center">     <!--information was changed to personalized the website-->
+                    <q>. Software and Web Developers are the creative minds behind computers and websites. Some software developers develop the applications that allow people to do specific tasks on computers or devices, while other develop the underlying systems that run the devices or control the networks. <!-- The was modified-->
+                        <br> Developers are increasingly responsible for the full lifecycle of application development, including operational responsibilities. 
+                        <br>They are to be treated with utmost respect and love.
+                    </q>
+                    <br> -Marlesa Bonnick
+                    <br>
+                    <br> My name is Romario Bonnick. Welcome to my portfolio website. On it, I will tell you about my background and experience. <!--My name is change to my name is Romario Bonnick-->
+                    <br>
+                    <br> Thank you for visiting my website! 
+                </p>
+            </strong>
+        </div>
+
+        <!--About section-->
+        <div class="Row" id="About">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./images/monitor.jpg" alt="About_Image"> <!--Image was inserted to replace the actual photo-->
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am a software developer who loves to code! As a husband to one wife, I love to spend time with her and travel. <!--The original sentence was modified-->
+                    <br>
+                    <br>I am a graduate of <a href="https://www.academyoflearning.com/" target="_blank">Academy of Learning</a>’s Software and web developer program with experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. <!--school og graduation and link was changed from The tech academy to the academy of learning-->
+                    <br>
+                    <br>I am a Software and Web developer and would love to work with you on your project. <a href="#Contact">Contact</a> me below! <!--change was made from full stock to software and web developer-->
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="GitHub">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/Bonnick" target="_blank">Romario Bonnick Github</a></p>  <!--changes made I provided my own github account-->
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/the-tech-academy" target="_blank"><img src="images/GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--Contact section-->
+        <div class="Row" id="Contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./images/pexels-photo-270632.jpeg" alt="Contact_Image"> <!-- The insert image was replaced with the an actual photo-->
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center">&Romario Bonnick.inc., <a href="https://www.academyoflearning.com" target="_blank">Academy of learning</a></p> <!--modification was made here to put my personal information-->
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
